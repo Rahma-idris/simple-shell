@@ -1,5 +1,5 @@
-#ifndef _MAIN_H_
-#define _MAIN_H_
+#ifndef _SHELL_H_
+#define _SHELL_H_
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -13,6 +13,6 @@ char *_strcpy(char *dest, const char *src);
 char *_strcat(char *dest, const char *src);
 size_t strlen(const char* str);
 char *_strchr(const char *str, int c);
-
+char *_strncat(char *dest, const char *src, size_t n);
 
 #endif

@@ -5,6 +5,13 @@
 #include <stdlib.h>
 #include <string.h>
 #include <sys/wait.h>
+#include <fcntl.h>
+#include <unistd.h>
+#include <sys/types.h>
+#include <errno.h>
+#include<sys/stat.h>
+
+extern char **environ /* Global environ */
 
 /*String functions*/
 int _strcmp(const char *s1, const char *s2);
